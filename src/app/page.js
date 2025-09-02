@@ -30,6 +30,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
+      <div>채연님, Hello</div>
       <button type="button" className={styles.btn} onClick={onSave}>
         토큰 저장하기
       </button>
